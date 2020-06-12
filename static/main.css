@@ -1,0 +1,191 @@
+.nav1{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    background-image: linear-gradient(to right,rgb(91,173,255),rgb(91,173,255),rgb(0,51,153),rgb(91,173,255),rgb(0,51,153),rgb(91,173,255),rgb(0,51,153));
+
+
+}
+
+/* .fa-shopping-cart .nav-link{
+    color:#ffffff;
+    
+} */
+
+
+.nav2{
+    background-color: rgb(254,244,226);
+}
+.secondary-link{
+    color: #000;
+}
+.white-link{
+    color: white!important;
+}
+
+.search-btn{
+    border-color: rgb(91,173,255) ;
+    background-color: #343a40;
+
+
+}
+.footer{
+    background-color: rgb(0,51,153);
+    color:white;
+    margin-top: 1em;
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(194, 214, 240);
+    opacity: 1; /* Firefox */
+    font-size: small;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(194, 214, 240);
+    font-size: small;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(194, 214, 240);
+    font-size: small;
+  }
+  .fa-search{
+      color: white;
+  }
+
+  
+
+  .banner-div{
+      height: 200px;
+      width: 100%;
+  }
+
+  .banner-img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+
+     /* Add the blur effect */
+   /*  filter: blur(5px);
+    -webkit-filter: blur(2px); */ 
+    
+}
+
+ 
+
+  .title-div{
+      background-color: white!important;
+      padding: 0;
+     
+  }
+  
+  .products-container-div{
+      display:grid;
+      width: 100%;
+      height: 350px;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      margin: auto;
+  }
+
+ .product-card {
+     border: black;
+     background-color: white;
+     margin: 1em;
+     height: 80%;
+
+  }
+  body, .container-fluid{
+      background-color:whitesmoke;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-flow: column;
+  }
+
+  .content{
+    
+    flex-grow : 1;
+  }
+  ul li a:hover {
+    border: 1px solid white;
+    color:white;
+    overflow: hidden;        
+}
+
+.secondary-link:hover {
+    border: 1px solid white;
+    color:black;
+    overflow: hidden;        
+}
+
+.nav-register{
+    height: 100px;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    background-image: linear-gradient(to right,rgb(91,173,255),rgb(91,173,255),rgb(0,51,153),rgb(91,173,255),rgb(0,51,153),rgb(91,173,255),rgb(0,51,153));
+    
+}
+
+.register-logo{
+    height: 90px;
+
+}
+.logo{
+    background-color: transparent;
+    width: auto;
+    height: 120%;
+  }
+
+  .main-logo-div{
+    height: 50px;
+  }
+  .main-logo{
+    width: auto;
+    height: 50px;
+  }
+
+.user-form{
+    margin: 2em;
+    border: 1px solid black;
+    padding: 2em;
+}
+
+.form-group > input{
+    border: 0.2px solid black;
+}
+
+.form-title{
+    color: rgb(255,217,102);
+    text-align: center;
+    font-weight: bold;
+    
+
+}
+
+.form-submit-btn{
+    background-color: rgb(255,217,102);
+    text-align: center;
+    color:rgb(0,51,153) ;
+}
+
+.account-link{
+    color:black;
+    text-align: center;
+}
+
+.language-menu{
+    background-color: black;
+}
+
+.language-menu > .dropdown-item{
+    color: white;
+}
+
+.language-menu > .dropdown-item:hover{
+    color: black;
+
+}
+
